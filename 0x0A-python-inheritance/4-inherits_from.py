@@ -1,19 +1,9 @@
 #!/usr/bin/python3
 """
-4. Only sub class of
+Contains the inherits_from function
 """
 
 
 def inherits_from(obj, a_class):
-    """
-    declare a function that check if the
-    object is an sub of class
-
-    Args:
-        obj (onj): the object to check
-        a_class (class): the class
-    Return:
-        True
-        False
-    """
-    return issubclass(type(obj), a_class) and type(obj) != a_class
+    """returns true if obj is a subclass of a_class, otherwise false"""
+    return(issubclass(type(obj), a_class) and type(obj) != a_class)
