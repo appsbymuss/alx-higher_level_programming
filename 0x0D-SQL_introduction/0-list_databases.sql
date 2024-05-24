@@ -1,0 +1,2 @@
+-- Desplay DATABases.
+SHOW DATABASES;
